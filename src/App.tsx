@@ -6,7 +6,7 @@ function App(): JSX.Element {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      oi
+      Hello World
     </ThemeProvider>
   );
 }
