@@ -5,5 +5,5 @@ type HelloWorldProps = {
 }
 
 export function HelloWorld({ title = "Hello World!" }: HelloWorldProps) {
-  return <Wrapper aria-label="Add to cart">{title}</Wrapper>
+  return <Wrapper aria-label="hello world">{title}</Wrapper>
 }

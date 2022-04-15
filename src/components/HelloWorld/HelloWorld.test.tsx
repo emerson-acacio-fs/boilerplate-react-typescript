@@ -5,6 +5,6 @@ import { HelloWorld } from "./HelloWorld"
 describe("<Button />", () => {
   it("should render the medium size by default", () => {
     render(<HelloWorld />)
-    expect(screen.getByLabelText(/add to cart/i)).toBeInTheDocument()
+    expect(screen.getByLabelText(/hello world/i)).toBeInTheDocument()
   })
 })
