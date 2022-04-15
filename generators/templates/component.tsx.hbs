@@ -2,11 +2,11 @@ import * as S from "./styles";
 
 
 export type {{pascalCase name}}Props = {
-  a?: string;
+  title?: string;
 };
 
-export const {{pascalCase name}} = (props: {{pascalCase name}}Props) => (
+export const {{pascalCase name}} = ({title=""}: {{pascalCase name}}Props) => (
   <S.Wrapper{{pascalCase name}}>
-    <h1>xxxx</h1>
+    <h1>{title}</h1>
   </S.Wrapper{{pascalCase name}}>
 );
