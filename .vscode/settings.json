@@ -4,7 +4,15 @@
   "editor.formatOnSave": true,
   "editor.fontSize": 18,
   "editor.fontFamily": "JetBrains Mono",
-  "auto-rename-tag.activationOnLanguage": ["html", "xml", "php", "javascript"],
+  "auto-rename-tag.activationOnLanguage": [
+    "html",
+    "xml",
+    "php",
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
   "javascript.suggest.autoImports": true,
   "extension.changeCase.commands": true,
   "styledComponentsExtractor.addImportStatement": true,
